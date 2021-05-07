@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JL TRANSLATIONS</title>
+</head>
+
+<style>
+    body {
+        background: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    h1,
+    p {
+        text-align: center;
+        color: rgb(0, 3, 3);
+    }
+
+    #form-container {
+        margin: 30px;
+        padding: 20px;
+        background-color: rgb(252, 210, 210);
+        border-radius: 15px;
+        color: #000000;
+        display: inline-block;
+        text-align: left;
+    }
+
+    #description {
+        font-size: 22px;
+        color: #525252;
+    }
+</style>
+
+<body>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
+    <header class="header">
+        <h1>JL TRANSLATIONS</h1>
+    </header>
+
+    <div class="navbar">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Services.html">Services</a>
+            <a href="Translations.html">Translations Samples</a>
+            <a href="Me.html">About Me</a>
+            <a href="Quote.html">Get a Quote</a>
+            <a href="Contact.html">Contact</a>
+        </nav>
+    </div>
+
+
+    <main>
+
+        <h1 id="title">
+            Contact Me
+        </h1>
+
+        <p id="description">Please complete the form below</p>
+
+        <!--Start of the Form-->
+
+        <div id="form-container">
+
+            <form action="" id="survey-form">
+
+                <!-- Ask Users for their Name-->
+                <div>
+                    <div>
+                        <label for="name" id="name-label">Name:</label>
+                    </div>
+                    <div>
+                        <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name"
+                            required maxlength="50" size="30">
+                    </div>
+                </div>
+                <br>
+                <!--Ask user for their email-->
+
+                <div>
+                    <div>
+                        <label for="email" id="email-label">Email:</label>
+                    </div>
+                    <div>
+                        <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email"
+                            required size="30">
+                    </div>
+                </div>
+                <br>
+                <!--Dropdown List-->
+
+                <div>
+                    <div>
+                        <label for="dropdown">Where did you hear about us?:</label>
+                    </div>
+                    <div>
+                        <select name="dropdown" id="dropdown">
+                            <option value="google">Google Search</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="word">Word of Mouth</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <!--Ask users for type of translation-->
+
+                <div>
+                    <div>
+                        <label for="comments">Comments:</label>
+                    </div>
+                    <div>
+                        <textarea name="comments" maxlength="1000" cols="40" rows="10"
+                        id="comments"></textarea>
+                    </div>
+                </div>
+                <br>
+
+                
+                <!--Submit Button-->
+                <div>
+                    <input type="submit" value="Submit" id="submit">
+                </div>
+            </form>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor"></div>
+        <div class="contact-links">
+            <a href="https://facebook.com/jludizel" target="_blank" class="btn contact-details"><i
+                    class="fab fa-facebook-square"></i></a>
+            <a href="https://github.com/jludizel" target="_blank" class="btn contact-details"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://twitter.com/jludizel" target="_blank" class="btn contact-details"><i
+                    class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/jludizel" target="_blank" class="btn contact-details"><i
+                    class="fab fa-instagram"></i></a>
+
+        </div>
+        </div>
+
+        <p class="copyright">2021 || Jei Ludizel Yax Sánchez</p>
+    </footer>
+
+</body>
+
+</html>
